@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(221, 250, 210);
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+h3 {
+  display: inline;
+  padding-left: 2rem;
+}
+
+.daniel {
+  background-color: rgb(255, 255, 255);
+  width: 50%;
+  border-radius: 1rem;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin: 0 1rem;
+  padding: 2rem;
+}
+
+.user {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.user img {
+  max-width: 2.5rem;
+  border-radius: 50%;
+}
+
+.message {
+  width: max-content;
+  margin: 2rem auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+h1,
+h3,
+img,
+p {
+  margin: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin: 0 3rem;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 0 3rem;
+    padding: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    margin: 0 3rem;
+    padding: 2rem;
+  }
+}
