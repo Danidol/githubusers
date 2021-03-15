@@ -36,7 +36,7 @@ const App = () => {
     return (
       <div className="message">
         <h1>error...</h1>
-        <p>check if the url is correct</p>
+        <p> Please check if the url is correct</p>
       </div>
     )
   }
